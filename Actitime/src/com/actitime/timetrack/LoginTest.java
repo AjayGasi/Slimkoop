@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest{
 		
 		wlib.verify(wlib.getPageTitle(),
 				flib.readPropertyData(PROP_PATH, "homeTitle"),
-				"Enter Time Track Page");
+				"Enter Time - Track Page");
 		
 		
 	}
